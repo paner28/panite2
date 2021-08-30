@@ -85,7 +85,7 @@ export default function Prime(){
                 </div>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="content col-lg-7 order-sm-2 order-lg-1" style={{padding:"0"}}>
+                        <div className="content col-lg-7 order-2 order-lg-1" style={{padding:"0"}}>
                             <div className="content">
                                 <header className="major">
                                     <h3>戦略(後日追加予定)</h3>
@@ -95,7 +95,7 @@ export default function Prime(){
 
                             </div>
                         </div>
-                        <div className="col-lg-5 order-sm-1 order-lg-2" style={{padding:"0"}}>
+                        <div className="col-lg-5 order-1 order-lg-2" style={{padding:"0"}}>
                             <Link to="/prime" className="image">
                                 <img src={pic09} alt=""/>
                             </Link>

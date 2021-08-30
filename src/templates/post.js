@@ -43,9 +43,15 @@ export default function Post({ pageContext }) {
                     <img src={image.file.url} className="post-image picture" alt="post-cover"></img>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: body }} className="post-body" />
-                <div style={{textAlign:"center"}}>
-                    <button type="button" className="btn btn-outline-dark" onClick={() => navigate(-1)} style={{marginRight:"20px"}}>リストに戻る</button>
-                    <Link to="/"><button type="button" className="btn btn-outline-dark">Homeに戻る</button></Link>
+            </div>
+            <div className="container" style={{textAlign:"center"}}>
+                <div className="row">
+                    <div className="col-6">
+                        <button type="button" className="btn btn-outline-dark" onClick={() => navigate(-1)} style={{marginRight:"20px"}}>リストに戻る</button>
+                    </div>
+                    <div className="col-6">
+                        <Link to="/"><button type="button" className="btn btn-outline-dark">Homeに戻る</button></Link>
+                    </div>
                 </div>
             </div>
         </Layout>

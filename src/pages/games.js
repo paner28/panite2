@@ -37,8 +37,8 @@ export default function Prime(){
                             </header>
                             <p>同好会のメンバーが考案し、その後「素数大富豪で遊ぼう会in関東」や「素数大富豪大学交流会」などでルール―が改良されている。今後の進化に期待。</p>
                             <p>ルール</p>
-                            <p>①2人1組となり、各プレーヤーに手札を7枚程度配る。じゃんけんをし、勝ったプレイヤーとその対面のプレイヤーはアシスト、残りのプレイヤーはショットという役職となる。<br/>②各プレーヤーは手札を確認し、任意のカードを捨て、捨てた分だけ山札から手札を補充する。<br/>③親から順番にチップを賭け、ポーカーのようにコール・レイズ・ドロップのいずれかの行為を選択する。<br/>④残ったプレイヤーは同時に手札を任意の順番で公開し、素数判定を行い、素数である数の中で最も大きい数を出したプレイヤーが全てのチップを回収する</p>
-                            <a href="https://twitter.com/9WDIl8WCktlIPKH/status/1127496993738186752"><button type="button" className="btn btn-outline-dark">詳しく見る(Twitter)</button></a>
+                            <p>～更新予定～</p>
+                            <a href="https://twitter.com/9WDIl8WCktlIPKH/status/1127496993738186752"><button type="button" className="btn btn-outline-dark">About(Twitter)</button></a>
 
                         </div>
                     </div>
@@ -95,10 +95,16 @@ export default function Prime(){
             </div>
         </section>
 
-        <div style={{textAlign:"center",marginTop:"40px"}}>
-            <Link to="/prime"><button type="button" className="btn btn-outline-dark" style={{marginRight:"10px"}}>Primeに戻る</button></Link>
-            <Link to="/"><button type="button" className="btn btn-outline-dark">Homeに戻る</button></Link>
-        </div>
+        <div className="container" style={{textAlign:"center"}}>
+                <div className="row">
+                    <div className="col-6">
+                        <Link to="/prime"><button type="button" className="btn btn-outline-dark">Primeに戻る</button></Link>
+                    </div>
+                    <div className="col-6">
+                        <Link to="/"><button type="button" className="btn btn-outline-dark">Homeに戻る</button></Link>
+                    </div>
+                </div>
+            </div>
     </Layout>
     )
 }

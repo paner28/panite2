@@ -116,11 +116,17 @@ export default function Prime(){
                 </div>
             </div>
         </section>
-
-        <div style={{textAlign:"center"}}>
-            <Link to="/prime"><button type="button" className="btn btn-outline-dark" style={{marginRight:"10px"}}>Primeに戻る</button></Link>
-            <Link to="/"><button type="button" className="btn btn-outline-dark">Homeに戻る</button></Link>
-        </div>
+        
+        <div className="container" style={{textAlign:"center"}}>
+                <div className="row">
+                    <div className="col-6">
+                        <Link to="/prime"><button type="button" className="btn btn-outline-dark">Primeに戻る</button></Link>
+                    </div>
+                    <div className="col-6">
+                        <Link to="/"><button type="button" className="btn btn-outline-dark">Homeに戻る</button></Link>
+                    </div>
+                </div>
+            </div>
     </Layout>
     )
 }

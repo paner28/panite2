@@ -1,7 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { useLocation } from "@reach/router";
 
 const Seo = ({ title, description }) => {
+    var pathname= useLocation.pathname;
     return (
         <Helmet
             htmlAttributes={{ lang: "ja-jp" }}
@@ -42,7 +44,7 @@ const Seo = ({ title, description }) => {
                 },
                 { 
                     property: 'og:url', 
-                    content: "https://hungry-stonebraker-a61d3b.netlify.app/" 
+                    content: 'https://hardcore-wright-1f3de9.netlify.app'
                 }
             ]}
         />

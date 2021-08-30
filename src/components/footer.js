@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import "../styles/footer.css"
 import ShareButtonList from "./shareButtonList"
+import { useLocation } from "@reach/router"
 
 export default function Footer() {
     return (
@@ -22,7 +23,7 @@ export default function Footer() {
                     </div>
                     <div className="col-md-4">
                         <ul className="icons">
-                            <ShareButtonList title="Panite" url={`https://hungry-stonebraker-a61d3b.netlify.app/`} />
+                            <ShareButtonList title="Panite" url={`https://hardcore-wright-1f3de9.netlify.app${useLocation().pathname}`} />
                         </ul>
                     </div>
                 </div>
