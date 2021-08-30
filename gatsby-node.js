@@ -83,7 +83,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         })
     });
  
-    const PerPage = 5
+    const PerPage = 6
     const pageCount = Math.ceil(result.data.allContentfulPost.totalCount / PerPage)
     
     for (let i = 0; i < pageCount; i++) {
