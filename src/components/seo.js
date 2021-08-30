@@ -38,6 +38,18 @@ const Seo = ({ title, description }) => {
                     name: 'twitter:card', 
                     content: 'summary'
                 },
+                {
+                    name: `twitter:creator`,
+                    content: "@tus_toshi1213",
+                },
+                {
+                    name: `twitter:title`,
+                    content: title,
+                },
+                {
+                    name: `twitter:description`,
+                    content: description,
+                },
                 { 
                     property: 'og:image', 
                     content: '../../static/favicon.ico' 

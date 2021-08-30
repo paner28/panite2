@@ -79,7 +79,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div style={{textAlign:"center",paddingTop:"40px"}}>
+      <div className="content" style={{textAlign:"center",paddingTop:"40px"}}>
         <h2>Introduction</h2>
         <p>数学科の学生である私が気に入ったクイズや数学パズルなどを共有していくサイトです。他にも、自分の興味のある分野や趣味についての内容も紹介していきます。</p>
         {/* <Link to="/introduction"><button type="button" className="btn btn-outline-dark">Learn more</button></Link> */}
