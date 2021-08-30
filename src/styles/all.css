@@ -1,0 +1,31 @@
+body{
+    user-select: none;
+    background-color: #f1f1f1;
+}
+
+.picture{
+    max-width: 600px;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.link-text{
+    text-decoration: none;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.btn:hover {
+    background: #000;
+    color: #fff;
+}

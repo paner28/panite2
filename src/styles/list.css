@@ -1,0 +1,321 @@
+.section1 {
+  background-color: rgba(63, 191, 191, 0.8);
+}
+
+.section1:hover {
+  -webkit-animation: change-color1 0.5s forwards;
+          animation: change-color1 0.5s forwards;
+}
+
+@-webkit-keyframes change-color1 {
+  0% {
+    background-color: rgba(63, 191, 191, 0.8);
+  }
+  100% {
+    background-color: rgba(63, 191, 191, 0);
+  }
+}
+
+@keyframes change-color1 {
+  0% {
+    background-color: rgba(63, 191, 191, 0.8);
+  }
+  100% {
+    background-color: rgba(63, 191, 191, 0);
+  }
+}
+
+.section2 {
+  background-color: rgba(152, 99, 177, 0.74);
+}
+
+.section2:hover {
+  -webkit-animation: change-color2 0.5s forwards;
+          animation: change-color2 0.5s forwards;
+}
+
+@-webkit-keyframes change-color2 {
+  0% {
+    background-color: rgba(152, 99, 177, 0.74);
+  }
+  100% {
+    background-color: rgba(127, 63, 191, 0);
+  }
+}
+
+@keyframes change-color2 {
+  0% {
+    background-color: rgba(152, 99, 177, 0.74);
+  }
+  100% {
+    background-color: rgba(127, 63, 191, 0);
+  }
+}
+
+.section3 {
+  background-color: rgba(255, 100, 102, 0.8);
+}
+
+.section3:hover {
+  -webkit-animation: change-color3 0.5s forwards;
+          animation: change-color3 0.5s forwards;
+}
+
+@-webkit-keyframes change-color3 {
+  0% {
+    background-color: rgba(255, 100, 102, 0.8);
+  }
+  100% {
+    background-color: rgba(242, 38, 41, 0);
+  }
+}
+
+@keyframes change-color3 {
+  0% {
+    background-color: rgba(255, 100, 102, 0.8);
+  }
+  100% {
+    background-color: rgba(242, 38, 41, 0);
+  }
+}
+
+.section4 {
+  background-color: rgba(242, 153, 38, 0.8);
+}
+
+.section4:hover {
+  -webkit-animation: change-color4 0.5s forwards;
+          animation: change-color4 0.5s forwards;
+}
+
+@-webkit-keyframes change-color4 {
+  0% {
+    background-color: rgba(242, 153, 38, 0.8);
+  }
+  100% {
+    background-color: rgba(242, 153, 38, 0);
+  }
+}
+
+@keyframes change-color4 {
+  0% {
+    background-color: rgba(242, 153, 38, 0.8);
+  }
+  100% {
+    background-color: rgba(242, 153, 38, 0);
+  }
+}
+
+.section5 {
+  background-color: rgba(120, 86, 255, 0.8);
+}
+
+.section5:hover {
+  -webkit-animation: change-color5 0.5s forwards;
+          animation: change-color5 0.5s forwards;
+}
+
+@-webkit-keyframes change-color5 {
+  0% {
+    background-color: rgba(120, 86, 255, 0.8);
+  }
+  100% {
+    background-color: rgba(78, 38, 242, 0);
+  }
+}
+
+@keyframes change-color5 {
+  0% {
+    background-color: rgba(120, 86, 255, 0.8);
+  }
+  100% {
+    background-color: rgba(78, 38, 242, 0);
+  }
+}
+
+.section6 {
+  background-color: rgba(61, 219, 116, 0.8);
+}
+
+.section6:hover {
+  -webkit-animation: change-color6 0.5s forwards;
+          animation: change-color6 0.5s forwards;
+}
+
+@-webkit-keyframes change-color6 {
+  0% {
+    background-color: rgba(61, 219, 116, 0.8);
+  }
+  100% {
+    background-color: rgba(61, 219, 116, 0);
+  }
+}
+
+@keyframes change-color6 {
+  0% {
+    background-color: rgba(61, 219, 116, 0.8);
+  }
+  100% {
+    background-color: rgba(61, 219, 116, 0);
+  }
+}
+
+.section {
+  padding: 4em 3em 2em;
+  height: 30vh;
+  max-height: 30em;
+  min-height: 20em;
+  color: white;
+  text-decoration: none;
+}
+
+.list {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#banner.style1::after {
+  background-color: rgba(63, 191, 191, 0.8);
+  -webkit-animation: change-color-anim1 3s forwards;
+          animation: change-color-anim1 3s forwards;
+}
+
+@-webkit-keyframes change-color-anim1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change-color-anim1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#banner.style2::after {
+  background-color: rgba(152, 99, 177, 0.74);
+  -webkit-animation: change-color-anim2 3s forwards;
+          animation: change-color-anim2 3s forwards;
+}
+
+@-webkit-keyframes change-color-anim2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change-color-anim2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#banner.style3::after {
+  background-color: rgba(255, 100, 102, 0.8);
+  -webkit-animation: change-color-anim3 3s forwards;
+          animation: change-color-anim3 3s forwards;
+}
+
+@-webkit-keyframes change-color-anim3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change-color-anim3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#banner.style4::after {
+  background-color: rgba(242, 153, 38, 0.8);
+  -webkit-animation: change-color-anim4 3s forwards;
+          animation: change-color-anim4 3s forwards;
+}
+
+@-webkit-keyframes change-color-anim4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change-color-anim4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#banner.style5::after {
+  background-color: rgba(120, 86, 255, 0.8);
+  -webkit-animation: change-color-anim5 3s forwards;
+          animation: change-color-anim5 3s forwards;
+}
+
+@-webkit-keyframes change-color-anim5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change-color-anim5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#banner.style6::after {
+  background-color: rgba(61, 219, 116, 0.8);
+  -webkit-animation: change-color-anim6 3s forwards;
+          animation: change-color-anim6 3s forwards;
+}
+
+@-webkit-keyframes change-color-anim6 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change-color-anim6 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=list.css.map */

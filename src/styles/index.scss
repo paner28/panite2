@@ -1,0 +1,30 @@
+$color: (rgba(63, 191, 191, 0.8):rgba(63, 191, 191, 0), rgba(152, 99, 177, 0.74):rgba(127, 63, 191, 0),rgba(255, 100, 102, 0.8):rgba(242, 38, 41, 0),rgba(242, 153, 38, 0.8):rgba(242, 153, 38, 0),rgba(120, 86, 255, 0.8):rgba(78, 38, 242, 0),rgba(61, 219, 116, 0.8):rgba(61, 219, 116, 0));
+
+@for $i from 1 through length($color) {
+    $t : nth($color,$i);
+    $b-color: nth($t, 1);
+    $a-color: nth($t, 2);
+    .section#{$i} {
+        background-color: $b-color;
+        &:hover{
+          animation: change-color#{$i} .5s forwards;
+        }
+    }
+    @keyframes change-color#{$i} {
+        0%{
+            background-color: $b-color;
+        }
+        100%{
+            background-color: $a-color;
+        }
+    }
+}
+
+.section{
+    padding: 4em 3em 2em;
+    height: 30vh;
+    max-height: 30em;
+    min-height: 20em;
+    color: white;
+    text-decoration: none;
+}

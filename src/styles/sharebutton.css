@@ -1,0 +1,17 @@
+.react-sharing-button__link {
+    align-items: center;
+    display: inline-flex;
+    font-size: 11px;
+    height: 30px;
+    justify-content: center;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.share-button{
+    margin: 5px;
+}
+
+.icons child{
+    padding: 10px;
+}

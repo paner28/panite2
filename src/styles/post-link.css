@@ -1,0 +1,15 @@
+.card{
+    width: auto;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transition: opacity .5s ease;
+    opacity: 0.7;
+
+}
+
+.card-body{
+    color: black;
+}

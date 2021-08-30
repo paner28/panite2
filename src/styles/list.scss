@@ -1,0 +1,24 @@
+@import "index.scss";
+
+.list{
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@for $i from 1 through length($color) {
+    $t : nth($color,$i);
+    $b-color: nth($t, 1);
+    #banner.style#{$i}::after {
+        background-color: $b-color;
+        animation: change-color-anim#{$i} 3s forwards;
+    }
+    @keyframes change-color-anim#{$i} {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
