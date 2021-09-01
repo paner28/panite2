@@ -8,8 +8,8 @@ const Seo = ({ title, description }) => {
         <Helmet>
             <title>{title}</title>
             <html lang="ja_JP" />
-            <meta property="description" content={description}></meta>
-            <meta property="title" content={title}></meta>
+            <meta name="description" content={description}></meta>
+            <meta name="title" content={title}></meta>
             <meta property="og:title" content={title}></meta>
             <meta property="og:description" content={description}></meta>
             <meta property="og:type" content="website"></meta>
@@ -17,11 +17,11 @@ const Seo = ({ title, description }) => {
             <meta property="og:locale" content="ja_JP"></meta>
             <meta property="og:image" content='../../static/favicon.ico'></meta>
             <meta property="og:url" content={'https://hardcore-wright-1f3de9.netlify.app'+pathname}></meta>
-            <meta property="twitter:card" content="summary"></meta>
-            <meta property="twitter:creater" content="@tus_toshi1213"></meta>
+            <meta name="twitter:card" content="summary"></meta>
+            <meta name="twitter:creater" content="@tus_toshi1213"></meta>
             <meta name="twitter:title" content={title} />
             <meta name="twitter:image" content="../../static/favicon.ico" />
-            <meta property="twitter:description" content={description}></meta>
+            <meta name="twitter:description" content={description}></meta>
         </Helmet>
     )
 }
