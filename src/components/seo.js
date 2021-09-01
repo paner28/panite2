@@ -20,7 +20,7 @@ const Seo = ({ title, description }) => {
             <meta name="twitter:card" content="summary"></meta>
             <meta name="twitter:creater" content="@tus_toshi1213"></meta>
             <meta name="twitter:title" content={title} />
-            <meta name="twitter:image" content="../../static/banner.jpg" />
+            <meta name="twitter:image" content="https://raw.githubusercontent.com/paner28/panite2/main/static/favicon.ico" />
             <meta name="twitter:description" content={description}></meta>
         </Helmet>
     )
