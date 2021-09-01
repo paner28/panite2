@@ -5,61 +5,20 @@ import { useLocation } from "@reach/router";
 const Seo = ({ title, description }) => {
     var pathname= useLocation.pathname;
     return (
-        <Helmet
-            htmlAttributes={{ lang: "ja-jp" }}
-            title={title}
-            titleTemplate={`%s`}
-            meta={[
-                {
-                    name: `description`,
-                    content: description,
-                },
-                {
-                    property: `og:title`,
-                    content: title,
-                },
-                {
-                    property: `og:description`,
-                    content: description,
-                },
-                {
-                    property: `og:type`,
-                    content: `website`,
-                },
-                {
-                    property: `og:site_name`,
-                    content: `Panite`,
-                },
-                {
-                    property: `og:locale`,
-                    content: `ja_JP`,
-                },
-                { 
-                    name: 'twitter:card', 
-                    content: 'summary'
-                },
-                {
-                    name: `twitter:creator`,
-                    content: "@tus_toshi1213",
-                },
-                {
-                    name: `twitter:title`,
-                    content: title,
-                },
-                {
-                    name: `twitter:description`,
-                    content: description,
-                },
-                { 
-                    property: 'og:image', 
-                    content: '../../static/favicon.ico' 
-                },
-                { 
-                    property: 'og:url', 
-                    content: 'https://hardcore-wright-1f3de9.netlify.app'+pathname
-                }
-            ]}
-        />
+        <Helmet>
+            <meta property="description" content={description}></meta>
+            <meta property="title" content={title}></meta>
+            <meta property="og:title" content={title}></meta>
+            <meta property="og:description" content={description}></meta>
+            <meta property="og:type" content="website"></meta>
+            <meta property="og:site_name" content="Panite"></meta>
+            <meta property="og:locale" content="ja_JP"></meta>
+            <meta property="twitter:card" content="summary"></meta>
+            <meta property="twitter:creater" content="@tus_toshi1213"></meta>
+            <meta property="twitter:description" content={description}></meta>
+            <meta property="og:image" content='../../static/favicon.ico'></meta>
+            <meta property="og:url" content={'https://hardcore-wright-1f3de9.netlify.app'+pathname}></meta>
+        </Helmet>
     )
 }
 
