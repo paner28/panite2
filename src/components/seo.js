@@ -56,7 +56,7 @@ const Seo = ({ title, description }) => {
                 },
                 { 
                     property: 'og:url', 
-                    content: 'https://hardcore-wright-1f3de9.netlify.app'
+                    content: 'https://hardcore-wright-1f3de9.netlify.app'+pathname
                 }
             ]}
         />
