@@ -6,6 +6,7 @@ const Seo = ({ title, description }) => {
     var pathname= useLocation.pathname;
     return (
         <Helmet>
+            <meta name="google-site-verification" content="0MSjeENpVJWLuELDIaxF_zlL5nm1DFuh1Z6YNhlwuQs" />
             <title>{title}</title>
             <html lang="ja_JP" />
             <meta name="description" content={description}></meta>
