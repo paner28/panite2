@@ -1,5 +1,6 @@
 import { Link, navigate} from "gatsby";
 import React from "react"
+import { useLocation } from "@reach/router";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../styles/post.css"
@@ -30,7 +31,7 @@ export default function Post({ pageContext }) {
                                 </div>
                                 <div className="">
                                     <ul className="icons">
-                                        <ShareButtonList title="Panite" url={`https://hungry-stonebraker-a61d3b.netlify.app/`} />
+                                        <ShareButtonList title="Panite" url={`https://hardcore-wright-1f3de9.netlify.app${useLocation().pathname}`} />
                                     </ul>
                                 </div>
                         </div>
